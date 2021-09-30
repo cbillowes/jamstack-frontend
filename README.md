@@ -105,6 +105,7 @@ Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby f
 <!-- AUTO-GENERATED-CONTENT:END -->
 # jamstack-frontend
 
+```js
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -134,8 +135,6 @@ FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });
 
-
-
 {
     status: 'connected',
     authResponse: {
@@ -148,15 +147,14 @@ FB.getLoginStatus(function(response) {
 
 
 //Next step is below:
-
-<fb:login-button 
+<fb:login-button
   scope="public_profile,email"
   onlogin="checkLoginState();">
 </fb:login-button>
-
 
 function checkLoginState() {
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
   });
 }
+```
