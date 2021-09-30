@@ -2,7 +2,10 @@
 {
   "extends": [
     "wesbos"
-  ]
+  ],
+  "rules": {
+    "react/prop-types": 0
+  }
 }
 
 // //! THE ORIGINAL
